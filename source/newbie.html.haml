@@ -7,9 +7,9 @@ title: Programaci&oacute;n 101
 	%hr/
 	.linklist
 		.row
-			- data.links.newbie.each do |section| 
+			- data.links.newbie.each do |section|
 				.six.columns
 					%p.name= section.title
 					%p.description= section.desc
 					- section.links.each do | link |
-						= link_to section.title, link, :class => "btn empty-teal"
+						= link_to section.title, link, :class => "btn empty-teal", :target => "_blank"
