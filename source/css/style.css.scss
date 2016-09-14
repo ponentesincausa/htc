@@ -1,0 +1,264 @@
+@charset "utf-8";
+@import "normalize";
+@import "skeleton";
+@import "vars";
+@import "mixins";
+@import "utils";
+
+/*
+ -----------
+	Fonts
+ -----------
+*/
+@font-face {
+	font-family: 'Whitney';
+	font-weight: 300;
+	src: url('../fonts/WhitneyLightProGkCy.eot');
+	src: url('../fonts/WhitneyLightProGkCy.eot') format('embedded-opentype'),
+		 url('../fonts/WhitneyLightProGkCy.woff2') format('woff2'),
+		 url('../fonts/WhitneyLightProGkCy.woff') format('woff'),
+		 url('../fonts/WhitneyLightProGkCy.ttf') format('truetype'),
+		 url('../fonts/WhitneyLightProGkCy.svg#WhitneyLightProGkCy') format('svg');
+}
+@font-face {
+	font-family: 'Whitney';
+	font-weight: 300;
+	font-style: italic;
+	src: url('../fonts/WhitneyLightItalProGkCy.eot');
+	src: url('../fonts/WhitneyLightItalProGkCy.eot') format('embedded-opentype'),
+		 url('../fonts/WhitneyLightItalProGkCy.woff2') format('woff2'),
+		 url('../fonts/WhitneyLightItalProGkCy.woff') format('woff'),
+		 url('../fonts/WhitneyLightItalProGkCy.ttf') format('truetype'),
+		 url('../fonts/WhitneyLightItalProGkCy.svg#WhitneyLightItalProGkCy') format('svg');
+}
+@font-face {
+	font-family: 'Whitney';
+	font-weight: 400;
+	src: url('../fonts/WhitneyBookProGkCy.eot');
+	src: url('../fonts/WhitneyBookProGkCy.eot') format('embedded-opentype'),
+		 url('../fonts/WhitneyBookProGkCy.woff2') format('woff2'),
+		 url('../fonts/WhitneyBookProGkCy.woff') format('woff'),
+		 url('../fonts/WhitneyBookProGkCy.ttf') format('truetype'),
+		 url('../fonts/WhitneyBookProGkCy.svg#WhitneyBookProGkCy') format('svg');
+}
+@font-face {
+	font-family: 'Whitney';
+	font-weight: 400;
+	font-style: italic;
+	src: url('../fonts/WhitneyBookItalProGkCy.eot');
+	src: url('../fonts/WhitneyBookItalProGkCy.eot') format('embedded-opentype'),
+		 url('../fonts/WhitneyBookItalProGkCy.woff2') format('woff2'),
+		 url('../fonts/WhitneyBookItalProGkCy.woff') format('woff'),
+		 url('../fonts/WhitneyBookItalProGkCy.ttf') format('truetype'),
+		 url('../fonts/WhitneyBookItalProGkCy.svg#WhitneyBookItalProGkCy') format('svg');
+}
+
+body {
+	font-family: 'Whitney', sans-serif;
+	font-weight: 300;
+	background: $main;
+}
+.prog101, .detalle{
+	background: $main;
+}
+.prog101 { 
+	.container{
+		margin-top: 15%;
+	}
+	h1, h2, h3, h4, h5, p, a{color: $teal; }
+	h1{
+		font-size: 7.6rem;
+		text-align: center;
+	}
+	.start.btn{ 
+		margin: 0 auto; 
+		width: 240px;
+		display: block;
+		margin-bottom: 8px;
+		margin-top: 5px;
+	}
+	.fz12{opacity: .3; }
+	.footnote{
+		margin-top: 12%;
+		text-align: center;
+		.fz14{color: #696a78; font-weight: 400; margin-bottom: 0;}
+	}
+}
+.btn {
+	@include transition(all, 300ms);
+}
+.empty-teal{
+	background: transparent;
+	border: 1px solid $teal;
+	padding: 10px 0;
+	text-align: center;
+	color: $teal;
+	font-size: 2rem;
+	display: inline-block;
+	&:hover{
+		background: $teal;
+		color: white;
+	}
+}
+.detalle, .newbie{
+	hr{border-color: $teal; }
+	h1{font-weight: 300; font-size: 7.4rem; margin-bottom: 0;}
+	p.desc{
+		width: 80%;
+		margin: 8% auto;
+		font-size: 2.2rem;
+		font-weight: 300;
+	}
+	.container{
+		margin: 6% auto 8%;
+
+	}
+	p{
+		font-size: 1.6rem; 
+		color: #e3f7f1;
+	}
+	.name{font-size: 4rem; font-weight: 300; }
+	.btn{
+		padding: 10px 50px;
+		margin-bottom: 20px;
+	}
+	.description{
+		margin-bottom: 40px;
+	}
+	.row{
+		padding: 0 4%;
+	}
+}
+
+
+/* Console */
+
+div.console { font-size: 14px }
+div.console div.jquery-console-inner { 
+	width: 50%; 
+	height: 200px; 
+	background: $main; 
+	padding: 0.5em;
+	overflow: auto;
+	margin: 0 auto;
+}
+div.console div.jquery-console-prompt-box
+ { color:#fff; font-family:monospace; }
+div.console div.jquery-console-focus span.jquery-console-cursor
+ { background:#fefefe; color:#333; font-weight:bold }
+div.console div.jquery-console-message-error
+ { color:#ef0505; font-family:sans-serif; font-weight:bold;
+   padding:0.1em; }
+div.console div.jquery-console-message-value
+ { color:#1ad027; font-family:monospace;
+   padding:0.1em; }
+div.console div.jquery-console-message-type
+ { color:#52666f; font-family:monospace;
+   padding:0.1em; }
+div.console span.jquery-console-prompt-label { font-weight:bold }
+
+.path {
+	margin: 8% 0;
+	h1{
+		color: $teal;
+		float: right;
+		width: 50%;
+		margin-bottom: 5%;
+		font-size: 9rem;
+		text-align: right;
+	}
+	.timeline{
+		p.title{
+			color: $teal;
+			font-size: 5.4rem;
+			margin-bottom: 0;
+		}
+		p.body{
+			color: #d1e1ef;
+			font-size: 1.7rem;
+			line-height: 2.3em;
+
+		}
+		.left, .right{
+			width: 440px;
+			clear: after;
+		}
+		.left{
+			float: left;
+		}
+		.right{
+			float: right;
+		}
+		.action.btn{
+			display: block;
+			width: 130px;
+			height: 40px;
+			padding: 0;
+			line-height: 2.3em;
+			font-size: 1.7rem;
+		}
+		.clear{
+			height: 90px;
+		}
+		.left {
+			position: relative;
+			&::before{
+				content: '';
+				position: absolute;
+				display: inline-block;
+				border-top: 7em solid $teal;
+				top: 33.7%;
+				right: -116.6%;
+				width: 32em;
+			}
+			&::after {
+				content: '';
+				height: 11em;
+				position: absolute;
+				display: inline-block;
+				bottom: -70%;
+				left: 35%;
+				border-right: 7em solid $teal;
+			}
+			&.fifth::after{
+				border: 0 none;
+				height: 0;
+				position: initial;
+			}
+			&.first::before{
+				border: 0 none;
+				position: initial;
+				width: 0;
+			}
+			&.first::after{
+				bottom: -64.1%;
+			}
+		}
+		.right {
+			position: relative;
+			&::before{
+				content: '';
+				position: absolute;
+				display: inline-block;
+				border-top: 7em solid $teal;
+				top: 36.7%;
+				left: -122.6%;
+				width: 32em;
+				opacity: .3;
+			}
+			&::after {
+				content: '';
+				position: absolute;
+				display: inline-block;
+				border-right: 7em solid $teal;
+				// top: 36.7%;
+				// left: -122.6%;
+				bottom: -70%;
+				right: 41%;
+				height: 10em;
+				opacity: .3;
+
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+---
+title: Programaci&oacute;n 101
+---
+.container
+	%h1.teal Newbie
+	%p.desc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, culpa quibusdam soluta illum, repudiandae voluptatum error facilis molestiae eius? Assumenda quae sed tempore neque autem accusantium tempora doloremque, magni labore quidem, quia ea atque doloribus laborum ipsam nemo! Dignissimos, voluptas!
+	%hr/
+	.linklist
+		- for i in 1..4
+			.row
+				- for i in 1..2
+					.six.columns
+						%p.name Youthspark
+						%p.description 
+							Una iniciativa global de Microsoft, YouthSpark tiene como objetivo el incrementar el acceso a la juventud el aprendizaje a las ciencias de la comunicación. Esto con la finalidad de motivar el autoaprendizaje y generar un crecimiento personal, familiar y comunitario. 
+							%br/
+							%br/
+							Aquí encontrarás todos los programas de YouthSpark, para aprender a programar.
+						%a.btn.empty-teal{:href => "#"} Youthspark
+			%hr/
