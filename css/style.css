@@ -1077,6 +1077,9 @@ div.console span.jquery-console-prompt-label {
   .goback:hover {
     color: #23c894; }
 
+.index .goback {
+  display: none; }
+
 .path {
   margin: 8% 0; }
   .path .goback {
