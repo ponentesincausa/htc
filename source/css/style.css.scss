@@ -133,7 +133,7 @@ body {
 
 /* Console */
 
-div.console { font-size: 14px }
+div.console { font-size: 14px; display: none; }
 div.console div.jquery-console-inner { 
 	width: 50%; 
 	height: 200px; 
