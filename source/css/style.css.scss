@@ -156,8 +156,24 @@ div.console div.jquery-console-message-type
  { color:#52666f; font-family:monospace;
    padding:0.1em; }
 div.console span.jquery-console-prompt-label { font-weight:bold }
-
+.resources{
+	h2{color: $teal; margin-top: 8%}
+}
+.goback{
+	position: absolute;
+	right: 10%;
+	top: 20px;
+	display: block;
+	font-size: 7rem;
+	color: white;
+	&:hover{
+		color: $teal;
+	}
+}
 .path {
+	.goback{
+		display: none;
+	}
 	margin: 8% 0;
 	h1{
 		color: $teal;

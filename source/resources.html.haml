@@ -1,0 +1,17 @@
+---
+title: Programaci&oacute;n 101
+---
+.container.default
+	%h1.teal Recursos
+	.clear.h80px
+	.linklist
+		- data.hello.each do | section |
+			%h2= section.title
+			%hr/
+			- section.mods.each_slice(2) do | mod |
+				.row
+					- mod.each do | modulo |
+						.six.columns
+							%p.name= modulo.title
+							%p.description= modulo.desc
+							= link_to modulo.title, modulo.link, :class => "btn empty-teal", :target => "-_blank"

@@ -8,4 +8,5 @@
 		%title= current_page.data.title || "Hackea Tu Ciudad"
 		= stylesheet_link_tag :style
 	%body{:class => page_classes}
+		= link_to "&times;", "path.html", :class => "goback"
 		= yield
