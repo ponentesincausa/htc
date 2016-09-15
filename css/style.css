@@ -955,25 +955,25 @@ body {
 .prog101, .detalle {
   background: #292c46; }
 
-.prog101 .container {
+.prog101 .container, .index .container {
   margin-top: 15%; }
-.prog101 h1, .prog101 h2, .prog101 h3, .prog101 h4, .prog101 h5, .prog101 p, .prog101 a {
+.prog101 h1, .prog101 h2, .prog101 h3, .prog101 h4, .prog101 h5, .prog101 p, .prog101 a, .index h1, .index h2, .index h3, .index h4, .index h5, .index p, .index a {
   color: #23c894; }
-.prog101 h1 {
+.prog101 h1, .index h1 {
   font-size: 7.6rem;
   text-align: center; }
-.prog101 .start.btn {
+.prog101 .start.btn, .index .start.btn {
   margin: 0 auto;
   width: 240px;
   display: block;
   margin-bottom: 8px;
   margin-top: 5px; }
-.prog101 .fz12 {
+.prog101 .fz12, .index .fz12 {
   opacity: .3; }
-.prog101 .footnote {
+.prog101 .footnote, .index .footnote {
   margin-top: 12%;
   text-align: center; }
-  .prog101 .footnote .fz14 {
+  .prog101 .footnote .fz14, .index .footnote .fz14 {
     color: #696a78;
     font-weight: 400;
     margin-bottom: 0; }
