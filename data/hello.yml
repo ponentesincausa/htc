@@ -1,0 +1,90 @@
+-
+  title: Data Science
+  mods: 
+    -
+      title: CS109 Harvard Data Science
+      type: advanced
+      desc: "A través de este curso podrás mejorar tu aprendizaje en la ciencia de datos mediante disputa, limpieza y muestreo de datos. Todo esto con la intención de tener un set de datos accesible y de calidad. Se usa el lenguaje Python y en el link podrás encontrar diferentes lecturas y clases que te llenarán de contenido."
+      link: "http://cs109.github.io"
+    -
+      title: LearnDataScience
+      desc: "Una colección de materiales de ciencia y sets de datos en la que podrás explorar y analizar de manera general la materia. Podrás encontrar manuales de Pyhton y de ciencia de datos con los cuales podrás adquirir un conocimiento básico por tu cuenta."
+      link: "https://github.com/nborwankar/LearnDataScience"
+-
+  title: Programing e-books
+  mods:
+    -
+      title: TechNet de Microsoft
+      desc: "Un catálogo para los lectores que deseen adquirir herramientas de programación desde cero, aquí encontrarás un listado de libros los cuales te guiarán a través de tres semestres de contenido sobre SmallBasic y las ciencias de la computación."
+      link: "http://social.technet.microsoft.com/wiki/contents/articles/16386.small-basic-programming-books.aspx"
+    -
+      title: SmallBasic
+      type: newbie
+      desc: "Un documento que te encaminará en tu inducción por el arte de programar, si eres de los que prefieren leer primero y luego practicar, aquí está tu punto de partida. Comenzando por el lenguaje Small Basic, podrás desarrollar habilidades básicas, de una forma sencilla y accesible."
+      link: "http://download.microsoft.com/download/9/0/6/90616372-C4BF-4628-BC82-BD709635220D/Introducing%20Small%20Basic.pdf"
+    -
+      title: Eloquent Javascript (JavaScript)
+      type: full
+      desc: "Para los amantes de la lectura, Eloquent Javascript, es un libro en línea con el cual podrás aprender acerca de JavaScript, desde las bases y fundamentos del lenguaje hasta sus múltiples usos y facetas."
+      link: http://eloquentjavascript.net/
+    -
+      title: Interactive Data Visualization for the Web.
+      type: 2
+      desc: "Un libro con actividades y ejercicios sobre cómo utilizar la librería d3.js para hacer visualizaciones de datos interactivas que estén directamente ligadas a las tablas de datos."
+      link: "http://chimera.labs.oreilly.com/books/1230000000345"
+-
+  title: Algoritmos
+  desc: "Un desarrollador es, en esencia un solucionador de problemas. No basta con escribir el código, hay que hacer que éste funcione de la manera más eficiente posible, y esto normalmente significa que tu programa haga más cosas en menos líneas de código. Para esto, necesitas aprender algoritmos. Aquí te dejamos unos recursos para hacerlo."
+  mods:
+    -
+      title: TopTal
+      link: "https://www.toptal.com/developers/sorting-algorithms/"
+    -
+      title: Algomation
+      link: "http://www.algomation.com/"
+-
+  title: Sección de Licencias
+  mods:
+    -
+      title: Elige tu licencia de código abierto
+      link: "http://choosealicense.com/"
+      desc: Define, ¿cuál licencia es la que mejor se adapta a tu situación como programador?
+    -
+      title: Catálogo de licencias en inglés
+      link: "https://tldrlegal.com/"
+      desc: Consulta las diferentes licencias en inglés.
+
+-
+  title: Haz Mockups o Prototipos de tus apps o páginas
+  desc: Cuando tengas un proyecto en mente, va a ser necesario que desarrolles mockups. Los mockups son prototipos de cómo se verá tu página o aplicación una vez que esté construida. Las siguientes herramientas te ayudarán a construir tus mockups y darle forma a esa idea que tienes en la cabeza.
+  mods:
+    -
+      title: Moqups
+      desc: Haz un prototipo rápido de tu app o página desde cero. Licencia Freemium. 
+      link: "http://moqups.com"
+    -
+      title: Invision
+      desc: Haz un prototipo avanzado de tu app o página. Requiere que hayas diseñado las pantallas, y te ayuda a poner funcionalidad y colaborar. Licencia Freemium. 
+      link: "https://www.invisionapp.com"
+
+- 
+  title: Herramientas en línea
+  mods:
+    -
+      title: CodePen
+      desc: En esta plataforma puedes mostrar tus creaciones recientes y obtener retroalimentación de la comunidad. Por otra parte podrás encontrar ejemplos de diferentes herramientas y aplicaciones que podrán servir de inspiración para tus proyectos.
+      link: "http://codepen.io"
+    -
+      title: Myjson
+      desc: Una plataforma en línea que te será útil cuando decidas trabajar con JSON.
+      link: "http://myjson.com/"
+    -
+      title: Mean.io
+      link: "http://mean.io"
+    -
+      title: Heroku
+      link: "https://heroku.com"
+    -
+      title: Stack Overflow
+      desc: "Es una plataforma en la que podrás encontrar numerosos tutoriales, ejemplos de código, guías de aprendizaje y elementos interesantes sobre una gran variedad de temas. Estos incluyen lenguajes de programación, aplicaciones y software. Aquí podrás encontrar cosas útiles con las que puedes practicar, según tus intereses y habilidades."
+      link: "http://stackoverflow.com/"

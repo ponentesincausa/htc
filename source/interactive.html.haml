@@ -1,0 +1,17 @@
+---
+title: Programaci&oacute;n 101
+---
+.container.default
+	%h1.teal Cursos Interactivos
+	%p.desc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, culpa quibusdam soluta illum, repudiandae voluptatum error facilis molestiae eius? Assumenda quae sed tempore neque autem accusantium tempora doloremque, magni labore quidem, quia ea atque doloribus laborum ipsam nemo! Dignissimos, voluptas!
+	%hr/
+	.linklist
+		- data.links.interactive.each_slice(2) do |slice|
+			.row
+				- slice.each do | section |
+					.six.columns
+						%p.name= section.title
+						%p.description= section.desc
+						- section.links.each do | link |
+							= link_to section.title, link, :class => "btn empty-teal", :target => "_blank"
+			%hr/
