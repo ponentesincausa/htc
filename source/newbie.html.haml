@@ -6,10 +6,12 @@ title: Programaci&oacute;n 101
 	%p.desc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, culpa quibusdam soluta illum, repudiandae voluptatum error facilis molestiae eius? Assumenda quae sed tempore neque autem accusantium tempora doloremque, magni labore quidem, quia ea atque doloribus laborum ipsam nemo! Dignissimos, voluptas!
 	%hr/
 	.linklist
-		.row
-			- data.links.newbie.each do |section|
-				.six.columns
-					%p.name= section.title
-					%p.description= section.desc
-					- section.links.each do | link |
-						= link_to section.title, link, :class => "btn empty-teal", :target => "_blank"
+		- data.links.newbie.each_slice(2) do |slice|
+			.row
+				- slice.each do | section |
+					.six.columns
+						%p.name= section.title
+						%p.description= section.desc
+						- section.links.each do | link |
+							= link_to section.title, link, :class => "btn empty-teal", :target => "_blank"
+			%hr/
