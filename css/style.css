@@ -1025,7 +1025,8 @@ body {
 
 /* Console */
 div.console {
-  font-size: 14px; }
+  font-size: 14px;
+  display: none; }
 
 div.console div.jquery-console-inner {
   width: 50%;
