@@ -1,6 +1,6 @@
 -
   title: Data Science
-  mods: 
+  mods:
     -
       title: CS109 Harvard Data Science
       type: advanced
@@ -38,9 +38,11 @@
   mods:
     -
       title: TopTal
+      desc: "Una librería interactiva de todos los algoritmos de ordenamiento (sorting algorithms) que te puedas imaginar."
       link: "https://www.toptal.com/developers/sorting-algorithms/"
     -
       title: Algomation
+      desc: "Una librería de algoritmos para todas tus necesidades programadoriles."
       link: "http://www.algomation.com/"
 -
   title: Sección de Licencias
@@ -60,14 +62,14 @@
   mods:
     -
       title: Moqups
-      desc: Haz un prototipo rápido de tu app o página desde cero. Licencia Freemium. 
+      desc: Haz un prototipo rápido de tu app o página desde cero. Licencia Freemium.
       link: "http://moqups.com"
     -
       title: Invision
-      desc: Haz un prototipo avanzado de tu app o página. Requiere que hayas diseñado las pantallas, y te ayuda a poner funcionalidad y colaborar. Licencia Freemium. 
+      desc: Haz un prototipo avanzado de tu app o página. Requiere que hayas diseñado las pantallas, y te ayuda a poner funcionalidad y colaborar. Licencia Freemium.
       link: "https://www.invisionapp.com"
 
-- 
+-
   title: Herramientas en línea
   mods:
     -
@@ -80,9 +82,11 @@
       link: "http://myjson.com/"
     -
       title: Mean.io
+      desc: "Un framework, o marco de trabajo, para desarrollar aplicaciones en web basado en JavaScript."
       link: "http://mean.io"
     -
       title: Heroku
+      desc: "El mejor amigo del desarrollador amateur. Sube tus proyectos en línea usando la capa gratuita de heroku. Excelente para probar y mostrar tu trabajo."
       link: "https://heroku.com"
     -
       title: Stack Overflow
