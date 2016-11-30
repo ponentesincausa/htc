@@ -6,9 +6,9 @@ newbie:
       - https://www.microsoft.com/about/philanthropies/youthspark/youthsparkhub/programs/
       - https://www.microsoft.com/about/philanthropies/youthspark/youthsparkhub/
   -
-    title: YoPuedoProgramar 
+    title: YoPuedoProgramar
     desc: Una alianza entre Microsoft y Code.org encaminada a otorgar herramientas a la juventud para introducirlos a las ciencias de la computaci&oacute;n y que puedan desarrollar habilidades de programaci&oacute;n. El rango de aprendizaje t&uacute; lo defines, ya que esta plataforma cuenta con paquetes desde nivel principiante.
-    links: 
+    links:
       - https://www.yopuedoprogramar.com
   -
     title: "TouchDevelop: Creative Coding"
@@ -46,6 +46,11 @@ interactive:
     desc: Freecodecamp es una plataforma para aprender diferentes herramientas de programaci&oacute;n y desarrollo web, orientadas tambi&eacute;n a desarrollar proyectos para organizaciones sin fines de lucro, de manera que puedas construir tu portafolio de programaci&oacute;n, y conseguir trabajo desarrollando.
     links:
       - https://www.freecodecamp.com
+  -
+    title: Rails for zombies
+    desc: Rails for Zombies es una plataforma de aprendizaje para aprender Rails. Rails es un Framework, o marco de trabajo, muy robusto para el desarrollo de aplicaciones web. RfZ es una forma fácil de empezar a conocer Rails.
+    links:
+      - http://railsforzombies.org/
 intensivos:
   -
     title: MIT OpenCourseWare
@@ -65,7 +70,7 @@ intensivos:
   -
     title: Introducci&oacute;n a la programaci&oacute;n con Java
     desc: Un curso de introducci&oacute;n para aprender a programar con Java, uno de los lenguajes m&aacute;s usados alrededor del mundo y en distintas plataformas. Es un curso completamente gratuito en el que podr&aacute;s conocer las bases de los algoritmos y la programaci&oacute;n en Java; por otra parte aprender&aacute;s a desarrollar programas e implementar algoritmos.
-    links: 
+    links:
       - https://www.edx.org/course/introduction-programming-java-part-1-uc3mx-it-1-1x-1
   -
     title: Programando con Python para las ciencias de datos
@@ -77,4 +82,3 @@ intensivos:
     desc: Curso en l&iacute;nea de ocho semanas sobre la introducci&oacute;n a la programaci&oacute;n. Aqu&iacute; podr&aacute;s encontrar contenido multimedia con el que podr&aacute;s aprender acerca de programaci&oacute;n de gr&aacute;ficos, uso de librer&iacute;as, internet, p&aacute;ginas web y HTML y JavaScript.
     links:
       - https://www.scolartic.com/es/web/programacion-ii-creando-codigo-fuente-iv-edicion
-
